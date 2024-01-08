@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Top Games by Sales</title>
+</head>
+
+<body>
+    <h1>Top Games by Sales</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Game Name</th>
+                <th>Global Sales</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#data}}
+            <tr>
+                <td>{{Name}}</td>
+                <td>{{Global_Sales}}</td>
+            </tr>
+            {{/data}}
+        </tbody>
+    </table>
+</body>
+
+</html>

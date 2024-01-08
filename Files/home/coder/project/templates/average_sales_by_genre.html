@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Average Sales by Genre</title>
+</head>
+
+<body>
+    <h1>Average Sales by Genre</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Genre</th>
+                <th>Average Sales</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#data}}
+            <tr>
+                <td>{{Genre}}</td>
+                <td>{{AverageSales}}</td>
+            </tr>
+            {{/data}}
+        </tbody>
+    </table>
+</body>
+
+</html>
